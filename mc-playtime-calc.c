@@ -293,7 +293,7 @@ int main(int argc, char* argv[])
     int file = 0, ret;
     if (argc == 1)
     {
-        puts(help);
+        printf(help);
         return 0;
     }
     else
